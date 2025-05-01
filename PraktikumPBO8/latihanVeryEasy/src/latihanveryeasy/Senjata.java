@@ -1,3 +1,8 @@
+/* Nama File: Senjata.java
+ * Nama     : Muhamad Sahal Annabil
+ * NIM      : 24060123130088
+ * Tanggal  : 30 April 2025
+ */
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
