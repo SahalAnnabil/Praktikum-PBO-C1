@@ -16,7 +16,6 @@ public class MysqlUtility {
 
     private static Connection koneksi;
 
-    // Private constructor to prevent external instantiation
     public static Connection getConnection() {
         if (koneksi == null) {
             try {
