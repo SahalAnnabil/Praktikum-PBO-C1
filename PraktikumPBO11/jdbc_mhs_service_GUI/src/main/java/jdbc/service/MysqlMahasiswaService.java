@@ -10,8 +10,6 @@ import java.sql.ResultSet;
 import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
-// import java.util.Collections; // Uncomment if sorting by name in indexReset
-// import java.util.Comparator; // Uncomment if sorting by name in indexReset
 
 import jdbc.model.Mahasiswa;
 import jdbc.utilities.MysqlUtility;
