@@ -50,7 +50,7 @@ public class jFrameUtama extends javax.swing.JFrame {
         jButtonEdit.addActionListener(this::jButtonEditActionPerformed);
         jButtonHapus.addActionListener(this::jButtonHapusActionPerformed);
         jButtonResetIndeks.addActionListener(this::jButtonResetIndeksActionPerformed);
-        jButtonAmbilSemuaData.addActionListener(this::jButtonAmbilSemuaDataActionPerformed); // Listener sudah ada di initComponents, tapi ini lebih konsisten
+        jButtonAmbilSemuaData.addActionListener(this::jButtonAmbilSemuaDataActionPerformed);
 
         jLabelResetIndexStatus.setText("Status Reset Indeks: Belum ada operasi.");
     }
@@ -323,7 +323,7 @@ public class jFrameUtama extends javax.swing.JFrame {
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(this, "Error menambahkan mahasiswa: " + e.getMessage(), "Database Error", JOptionPane.ERROR_MESSAGE);
         }
-    }//GEN-LAST:event_jButtonTambahkanActionPerformed
+    }
 
     private void jButtonEditActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEditActionPerformed
         String idStr = jTextFieldEditID.getText().trim(); 
@@ -356,7 +356,7 @@ public class jFrameUtama extends javax.swing.JFrame {
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(this, "Error mengubah data mahasiswa: " + e.getMessage(), "Database Error", JOptionPane.ERROR_MESSAGE);
         }
-    }//GEN-LAST:event_jButtonEditActionPerformed
+    }
 
     private void jButtonHapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHapusActionPerformed
         String idStr = jTextFieldHapusID.getText().trim(); 
@@ -383,15 +383,15 @@ public class jFrameUtama extends javax.swing.JFrame {
             jTextFieldHapusID.setText("");
             jTextFieldHapusNama.setText("");
         } catch (SQLException ex) {}
-    }//GEN-LAST:event_jButtonResetIndeksActionPerformed
+    }
 
     private void jListIDMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jListIDMouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jListIDMouseClicked
+    }
 
     private void jListNamaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jListNamaMouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jListNamaMouseClicked
+    }
 
     /**
      * @param args the command line arguments
