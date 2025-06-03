@@ -17,7 +17,7 @@ import javax.swing.event.ListSelectionListener;
 
 /**
  *
- * @author Sahal Annabil (dan modifikasi oleh Asisten AI)
+ * @author Sahal Annabil
  */
 public class jFrameUtama extends javax.swing.JFrame {
 
