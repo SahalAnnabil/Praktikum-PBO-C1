@@ -1,0 +1,5 @@
+jdbc\program\Program.class
+com\mycompany\jdbc_mhs_service\Jdbc_mhs_service.class
+jdbc\service\MysqlMahasiswaService.class
+jdbc\utilities\MysqlUtility.class
+jdbc\model\Mahasiswa.class
